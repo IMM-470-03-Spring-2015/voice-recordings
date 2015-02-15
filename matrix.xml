@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Gather action="./check_pill.php" method="get" finishOnKey="*">
+    <Gather action="http://www.tcnj.edu/~thompsom/imm-470-03/voice-recordings/checkpill.php" method="get" finishOnKey="*">
         <Play>http://www.mediamesis.net/imm/redpill.mp3</Play>
-        <Say>Press 1 to take the red pill.</Say>
-        <Say>Press 2 to take the blue pill.</Say>
+        <Say>Press 1 and the star key to take the red pill.</Say>
+        <Say>Press 2 and the star key to take the blue pill.</Say>
     </Gather>
 </Response>
