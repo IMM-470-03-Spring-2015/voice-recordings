@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say>Leave a message after the beep. Press the pound key when you're finished recording.</Say>
+    <Record
+        action="http://www.tcnj.edu/~thompsom/imm-470-03/voice-recordings/record.php"
+        method="GET"
+        maxLength="20"
+        finishOnKey="#"
+    />
+</Response>
