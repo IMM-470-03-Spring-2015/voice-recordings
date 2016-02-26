@@ -1,4 +1,9 @@
 <?php
+/* save a Twilio recording to Soundcloud 
+* useful for creating phone-based oral histories along with timeline.js etc
+*/
+
+// usage http://somehost.com/save2sc.php?recid=xxxxxxxxxxxx[&tag=sometag%20anothertag]
 if( isset($_REQUEST["recid"]) && !empty($_REQUEST["recid"]) ) {
     
     // include the SoundCloud library
