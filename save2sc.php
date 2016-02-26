@@ -34,7 +34,7 @@ if( isset($_REQUEST["recid"]) && !empty($_REQUEST["recid"]) ) {
     // create a new SoundCloud Object...
     $soundcloud = new Services_Soundcloud('8c2973e42617de13c93c6d601b018b16', '6a56c849d46a4a650523de87701b2108', null);
     // and get an authentication token bypassing the Oauth connect flow
-    $soundcloud->credentialsFlow('thomesoni@gmail.com','0D1NRULEs');
+    $soundcloud->credentialsFlow('your-soundcloud-username','your-soundcloud-password');
 
     // create the track meta data
     $track = array(
