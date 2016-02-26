@@ -10,7 +10,7 @@ if( isset($_REQUEST["recid"]) && !empty($_REQUEST["recid"]) ) {
     require('Services/Soundcloud.php');
 
     // Twilio stuff
-    $accountSID = 'ACc97cde1b267c161a9e1d2f916b75d22b';
+    $accountSID = 'xxxxxxxxxxxxxxxxxxxxxxx';
     $recordingSID = htmlspecialchars($_REQUEST["recid"]);
     // space seperated list of tags
     $tags = ( isset($_REQUEST["tag"]) && !empty($_REQUEST["tag"]) ) ? $_REQUEST["tag"] : "general" ;
